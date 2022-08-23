@@ -29,7 +29,7 @@ module.exports = {
       },
       {
         test: /\.html$/i,
-        loader: "html-loader",
+        loader: 'html-loader',
       },
 
     ],
@@ -38,9 +38,9 @@ module.exports = {
 
   plugins: [new HtmlWebpackPlugin(
     {
-        template: './src/index.html',
-        filename: './index.html',
-    }
+      template: './src/index.html',
+      filename: './index.html',
+    },
   )],
   optimization: {
 

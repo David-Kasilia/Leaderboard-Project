@@ -1,112 +1,109 @@
 h1,
-h2{
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-    font-weight: 600;
-}
-body{
-    background-color: white;
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  font-weight: 600;
 }
 
-#head-container{
-    margin-left: 20px;
+body {
+  background-color: white;
 }
 
-.title{
-    font-size: 32px;
-    font-family: 'Quicksand', sans-serif;
+#head-container {
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .scores-title,
-.add-title{
-    font-size: 28px;
-    font-family: 'Quicksand', sans-serif;
+.add-title {
+  font-size: 28px;
+  font-family: 'Quicksand', sans-serif;
 }
 
-#scores{
-    display: flex;
-    flex-direction: column;
-    width: 35%;
-    margin-left: 60px;
+#scores {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-left: 60px;
 }
 
-.scores-bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.scores-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-#add-container{
+#add-container {
   float: right;
   margin: -330px 250px 20px 800px;
   width: 35%;
   position: fixed;
 }
 
-.input-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-    min-height: 15vh;
-    
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 15vh;
 }
 
-button{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-    box-shadow: 5px 8px black;
+button {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  box-shadow: 5px 8px black;
 }
 
 .refresh-btn {
-    width: 150px;
-    height: 40px;
-    margin-top: 22px;
-    
+  width: 150px;
+  height: 40px;
+  margin-top: 22px;
 }
 
 .submit-btn {
-    width: 100px;
-    height: 40px;
-    margin-left: 345px;
+  width: 100px;
+  height: 40px;
+  margin-left: 345px;
 }
 
-.scoresBoard{
-    width: 100%;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+.scoresBoard {
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
 }
 
-input{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    height: 25px;
+input {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  height: 25px;
 }
 
-.listOne{
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-    font-size: 16px;
-    padding: 5px;
-    margin-left: -35px;
+.listOne {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  margin-left: -35px;
 }
 
-.listTwo{
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-    font-size: 16px;
-    background-color: grey;
-    padding: 5px;
-    margin-left: -35px;
-
+.listTwo {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  font-size: 16px;
+  background-color: grey;
+  padding: 5px;
+  margin-left: -35px;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
