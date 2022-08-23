@@ -39,8 +39,9 @@ body{
 
 #add-container{
   float: right;
-  margin: -80px 250px 20px 600px;
+  margin: -330px 250px 20px 800px;
   width: 35%;
+  position: fixed;
 }
 
 .input-container{
@@ -74,7 +75,7 @@ button{
     margin-left: 345px;
 }
 
-.scores-board{
+.scoresBoard{
     width: 100%;
     border-style: solid;
     border-color: black;
@@ -86,4 +87,26 @@ input{
     border-color: black;
     border-width: 2px;
     height: 25px;
+}
+
+.listOne{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: -35px;
+}
+
+.listTwo{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 16px;
+    background-color: grey;
+    padding: 5px;
+    margin-left: -35px;
+
+}
+
+li{
+    list-style: none;
 }
