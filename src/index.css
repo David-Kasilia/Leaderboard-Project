@@ -41,7 +41,6 @@ body {
   top: 80px;
   left: 850px;
   width: 35%;
-
 }
 
 .scoresForm {
@@ -93,7 +92,7 @@ input {
   color: black;
   font-size: 16px;
   padding: 5px;
-  margin-left: -35px;
+  margin-left: 5px;
 }
 
 .listTwo {
