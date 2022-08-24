@@ -25,26 +25,25 @@ body {
 }
 
 #scores {
-  display: flex;
-  flex-direction: column;
-  width: 35%;
+  width: 100%;
   margin-left: 60px;
 }
 
 .scores-bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 #add-container {
   float: right;
-  margin: -330px 250px 20px 800px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  left: 850px;
   width: 35%;
-  position: fixed;
 }
 
-.input-container {
+.scoresForm {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -65,6 +64,7 @@ button {
   width: 150px;
   height: 40px;
   margin-top: 22px;
+  margin-left: 200px;
 }
 
 .submit-btn {
@@ -74,7 +74,7 @@ button {
 }
 
 .scoresBoard {
-  width: 100%;
+  width: 35%;
   border-style: solid;
   border-color: black;
   border-width: 2px;
@@ -92,7 +92,7 @@ input {
   color: black;
   font-size: 16px;
   padding: 5px;
-  margin-left: -35px;
+  margin-left: 5px;
 }
 
 .listTwo {
