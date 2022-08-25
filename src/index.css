@@ -1,16 +1,61 @@
 h1,
 h2 {
   font-family: 'Quicksand', sans-serif;
-  color: black;
+  color: white;
   font-weight: 600;
 }
 
-body {
-  background-color: white;
+nav{
+  height: 120px;
+  background-color: black;
+  margin: -20px 0 0 -30px;
+}
+.logo{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -20px;
+  left: 0;
+  margin: 0 auto;
+  height: 180px;
 }
 
+body{
+  overflow: hidden;
+width:100%;
+height:100vh;
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+backface-visibility: hidden;
+animation: animate 20s linear infinite 1s;
+animation-timing-function: ease-in-out;
+background-image: url('./images/image1.jpg');
+}
+
+@keyframes animate { 
+  0% {
+    background-image:url('./images/image1.jpg');
+  }
+  25% {
+    background-image:url('./images/image2.jpg');
+  }
+  50% {
+    background-image:url('./images/image4.jpg');
+  }
+  75% {
+    background-image:url('./images/image6.jpg');
+  }
+  100% {
+    background-image:url('./images/image7.jpg');
+  }
+}
+  
 #head-container {
-  margin-left: 20px;
+  position: absolute;
+  right: 0;
+  top: 90px;
+  left: 50px;
 }
 
 .title {
@@ -32,13 +77,14 @@ body {
 .scores-bar {
   display: flex;
   flex-direction: row;
+  margin-top: 45px;
 }
 
 #add-container {
   float: right;
   position: absolute;
   right: 0;
-  top: 80px;
+  top: 152px;
   left: 850px;
   width: 35%;
 }
@@ -76,20 +122,22 @@ button {
 .scoresBoard {
   width: 35%;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   border-width: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+
 }
 
 input {
   border-style: solid;
-  border-color: black;
+  border-color: white;;
   border-width: 2px;
   height: 25px;
 }
 
 .listOne {
   font-family: 'Quicksand', sans-serif;
-  color: black;
+  color: white;;
   font-size: 16px;
   padding: 5px;
   margin-left: 5px;
